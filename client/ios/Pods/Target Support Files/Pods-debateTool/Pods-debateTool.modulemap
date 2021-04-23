@@ -1,0 +1,6 @@
+module Pods_debateTool {
+  umbrella header "Pods-debateTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#333333",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#EFE8E9",
+            "fontSize": 40,
+          },
+          Object {
+            "paddingLeft": 20,
+          },
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1067.2,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 33,
+        }
+      }
+    >
+      Create A New Topic
+    </Text>
+    <View
+      style={Object {}}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#EFE8E9",
+              "fontSize": 17,
+              "marginBottom": 2,
+            }
+          }
+        >
+          Topic: 
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "white",
+              "height": 30,
+              "width": 600,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#EFE8E9",
+              "fontSize": 17,
+              "marginBottom": 2,
+            }
+          }
+        >
+          Do you agree? 
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "white",
+              "height": 30,
+              "width": 600,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#EFE8E9",
+              "fontSize": 17,
+              "marginBottom": 2,
+            }
+          }
+        >
+          What's your opinion? 
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "white",
+              "height": 30,
+              "width": 600,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#EFE8E9",
+              "fontSize": 17,
+              "marginBottom": 2,
+            }
+          }
+        >
+          Why is that the case? 
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "white",
+              "height": 30,
+              "width": 600,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#EFE8E9",
+              "fontSize": 17,
+              "marginBottom": 2,
+            }
+          }
+        >
+          Do you have an example? 
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "white",
+              "height": 30,
+              "width": 600,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 20,
+          "marginTop": 15,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "height": 30,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 120,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Create
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

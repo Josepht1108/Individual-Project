@@ -1,0 +1,437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#333333",
+      "flex": 1,
+    }
+  }
+>
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent="true"
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 1334,
+          "justifyContent": "center",
+          "marginTop": 22,
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "grey",
+            "borderRadius": 20,
+            "height": 200,
+            "justifyContent": "center",
+            "margin": 20,
+            "padding": 15,
+            "width": 250,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "marginBottom": 15,
+              "textAlign": "center",
+            }
+          }
+        >
+          You have an account now!
+        </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#2196F3",
+              "borderRadius": 20,
+              "elevation": 2,
+              "padding": 10,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontWeight": "bold",
+                "textAlign": "center",
+              }
+            }
+          >
+            Login Now!
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Modal>
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    transparent="true"
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 1334,
+          "justifyContent": "center",
+          "marginTop": 22,
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "grey",
+            "borderRadius": 20,
+            "height": 200,
+            "justifyContent": "center",
+            "margin": 20,
+            "padding": 15,
+            "width": 250,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "marginBottom": 15,
+              "textAlign": "center",
+            }
+          }
+        >
+          Account Already Exist!
+        </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#2196F3",
+              "borderRadius": 20,
+              "elevation": 2,
+              "padding": 10,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontWeight": "bold",
+                "textAlign": "center",
+              }
+            }
+          >
+            Back
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Modal>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1334,
+        "justifyContent": "center",
+        "marginTop": "-17%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "marginBottom": 25,
+          "textAlign": "center",
+        }
+      }
+    >
+      Register
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "width": 600,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "lineHeight": 30,
+            "textAlign": "center",
+          }
+        }
+      >
+        Firstname: 
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        clearButtonMode="while-editing"
+        onChangeText={[Function]}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "height": 30,
+            "width": 180,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "width": 600,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "lineHeight": 30,
+            "textAlign": "center",
+          }
+        }
+      >
+        Surname: 
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        clearButtonMode="while-editing"
+        onChangeText={[Function]}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "height": 30,
+            "width": 180,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "width": 600,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "lineHeight": 30,
+            "textAlign": "center",
+          }
+        }
+      >
+        E-mail: 
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        clearButtonMode="while-editing"
+        onChangeText={[Function]}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "height": 30,
+            "width": 180,
+          }
+        }
+        textContentType="emailAddress"
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "width": 600,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "lineHeight": 30,
+            "textAlign": "center",
+          }
+        }
+      >
+        Password: 
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        clearButtonMode="while-editing"
+        onChangeText={[Function]}
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "height": 30,
+            "width": 180,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 5,
+          "width": 600,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 12,
+            "lineHeight": 15,
+          }
+        }
+      >
+        Already have an account?
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 12,
+              "lineHeight": 15,
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          Back to Login
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginTop": 15,
+          "width": 140,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 15,
+            "height": 35,
+            "opacity": 1,
+            "width": 140,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+              "lineHeight": 35,
+              "textAlign": "center",
+            }
+          }
+        >
+          Register
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

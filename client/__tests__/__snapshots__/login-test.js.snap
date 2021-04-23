@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#333333",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1200.6000000000001,
+        "justifyContent": "center",
+        "width": 750,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      DEBATE TOOL
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="while-editing"
+      onChangeText={[Function]}
+      placeholder=" Email"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "height": 35,
+          "marginTop": 20,
+          "width": 495,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="while-editing"
+      onChangeText={[Function]}
+      placeholder=" Password"
+      rejectResponderTermination={true}
+      secureTextEntry={true}
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "height": 35,
+          "marginTop": 10,
+          "width": 495,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 15,
+          "justifyContent": "space-between",
+          "marginBottom": 10,
+          "marginTop": 5,
+          "width": 495,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 12,
+            "lineHeight": 15,
+          }
+        }
+      >
+        Don't have one?
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 12,
+              "lineHeight": 15,
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          Register
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "width": 140,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 15,
+            "height": 35,
+            "opacity": 1,
+            "width": 140,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+              "lineHeight": 35,
+              "textAlign": "center",
+            }
+          }
+        >
+          Login
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
